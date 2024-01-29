@@ -14,7 +14,7 @@ export default function Home() {
             Descubra o poder dos códigos e das soluções digitais.
           </p>
           <div className="flex-col md:flex-row hidden md:flex gap-5">
-            <Link href="/minhas-skills" className="rounded-[20px] relative group bg-blue-500 hover:bg-blue-400 px-5 py-3 text-lg text-white max-w-[200px]">
+            <Link href="/minhas-skills" className='rounded-[20px] relative group bg-blue-500 hover:bg-blue-400 px-5 py-3 text-lg text-white max-w-[200px]'>
               Veja Mais
             </Link>
             <Link href="/meus-projetos" className="rounded-[20px]  relative group bg-blue-500 hover:bg-blue-400 px-5 py-3 text-lg text-white max-w-[200px]">
