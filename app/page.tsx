@@ -17,11 +17,11 @@ export default function Home() {
             <Link href="/minhas-skills" className='rounded-[20px] relative group bg-blue-500 hover:bg-blue-400 px-5 py-3 text-lg text-white max-w-[200px]'>
               Veja Mais
             </Link>
-            <Link href="/meus-projetos" className="rounded-[20px]  relative group bg-blue-500 hover:bg-blue-400 px-5 py-3 text-lg text-white max-w-[200px]">
+            <Link href="/meus-projetos" className="rounded-[20px]  relative group bg-transparent border hover:bg-black/30 px-5 py-3 text-lg text-white max-w-[200px]">
               <div className="absolute rounded-[20px] z-[1] bg-white inset-0 opacity-0 group-hover:opacity-20"/>
               Meus Projetos
             </Link>
-            <Link href="/me-contate" className="rounded-[20px]  relative group bg-blue-500 hover:bg-blue-400 px-5 py-3 text-lg text-white max-w-[200px]">
+            <Link href="/me-contate" className="rounded-[20px]  relative group bg-transparent border hover:bg-black/30 px-5 py-3 text-lg text-white max-w-[200px]">
               <div className="absolute rounded-[20px] z-[1] bg-white inset-0 opacity-0 group-hover:opacity-20"/>
               Me contate
             </Link>

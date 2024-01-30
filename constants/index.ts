@@ -2,114 +2,104 @@ import { RxHome, RxPerson, RxDashboard, RxClipboard } from "react-icons/rx";
 
 export const SkillData = [
   {
-    name: "Html 5",
-    Image: "/html.png",
+    name: "C",
+    Image: "/c.png",
+    width: 50,
+    height: 50,
+  },
+  {
+    name: "Java",
+    Image: "/java.png",
     width: 80,
     height: 80,
   },
   {
-    name: "Css",
-    Image: "/css.png",
+    name: "Python",
+    Image: "/python.png",
     width: 80,
     height: 80,
   },
   {
     name: "JavaScript",
     Image: "/js.png",
+    width: 50,
+    height: 50,
+  },
+  {
+    name: "TypeScript",
+    Image: "/ts.png",
+    width: 50,
+    height: 50,
+  },
+  {
+    name: "Postgresql",
+    Image: "/postgres.png",
+    width: 50,
+    height: 50,
+  },
+  {
+    name: "Vue",
+    Image: "/vue.png",
     width: 65,
     height: 65,
   },
   {
-    name: "Tailwind Css",
-    Image: "/tailwind.png",
-    width: 80,
-    height: 80,
-  },
-  {
     name: "React",
     Image: "/react.png",
-    width: 80,
-    height: 80,
+    width: 50,
+    height: 50,
   },
   {
-    name: "Redux",
-    Image: "/redux.png",
-    width: 80,
-    height: 80,
-  },
-
-  {
-    name: "TypeScript",
-    Image: "/ts.png",
-    width: 80,
-    height: 80,
+    name: "Flask",
+    Image: "/flask.png",
+    width: 60,
+    height: 60,
   },
   {
-    name: "Next js 13",
-    Image: "/next.png",
+    name: "Spring",
+    Image: "/spring.png",
     width: 80,
     height: 80,
-  },
-  {
-    name: "Framer Motion",
-    Image: "/framer.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    name: "Stripe Payment",
-    Image: "/stripe.webp",
-    width: 80,
-    height: 80,
-  },
-  {
-    name: "Node js",
-    Image: "/node-js.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    name: "Mongo db",
-    Image: "/mongodb.png",
-    width: 40,
-    height: 40,
   },
 ];
 
 export const Socials = [
   {
-    name: "Discord",
-    src: "/instagram.svg",
+    name: "Linkedin",
+    src: "/linkedin.svg",
+    link: "https://www.linkedin.com/in/pedrohcmoda/"
   },
   {
     name: "Github",
     src: "/github.png",
+    link: "https://github.com/pedrohcmoda"
   },
   {
     name: "Instagram",
-    src: "/discord.svg",
+    src: "/instagram.svg",
+    link: "https://www.instagram.com"
   },
 ];
 export const Projects = [
   {
-    title: "Modern Nextjs Website",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-    src: "/NextWebsite.png",
+    title: "CryptoWeb",
+    text: "Projeto desenvolvido em grupo, que utiliza uma combinação de tecnologias para oferecer uma experiência completa aos usuários interessados em acompanhar o mercado de criptomoedas. (Em desenvolvimento)",
+    src: "/cryptoweb.png",
   },
   {
-    title: "Space Themed Website",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-    src: "/SpaceWebsite.png",
+    title: "Stocklite",
+    text: "Projeto desenvolvido com Java e PostgreSQL, visando otimizar a gestão de estoques, auxiliando os gerentes no controle e planejamento de suas atividades.",
+    src: "/stocklite.png",
   },
   {
-    title: "Modern Nextjs Portfolio",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-    src: "/WebPortfolio.png",
+    title: "Back-end clean architecture",
+    text: "CRUD simples desenvolvido em TypeScript utilizando o framework Elysia e banco de dados postgreSQL, seguindo o padrão de arquitetura limpa.",
+    src: "/cleanBackend.png",
   },
   {
-    title: "Matrix themed Website",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-    src: "/Matrix.png",
+    title: "CRUD de produto",
+    text: "CRUD simples de produtos desenvolvido em C# utilizando o framework .NET e banco de dados mySQL.",
+    src: "/cruddotnet.png",
   },
 ];
 
@@ -120,18 +110,18 @@ export const NavLinks = [
     link: "/",
   },
   {
-    name: "/my-skills",
+    name: "/minhas-skills",
     icon: RxPerson,
-    link: "/my-skills",
+    link: "/minhas-skills",
   },
   {
-    name: "/my-projects",
+    name: "/meus-projetos",
     icon: RxDashboard,
-    link: "/my-projects",
+    link: "/meus-projetos",
   },
   {
-    name: "/contact-me",
+    name: "/me-contate",
     icon: RxClipboard,
-    link: "/contact-me",
+    link: "/me-contate",
   },
 ];
