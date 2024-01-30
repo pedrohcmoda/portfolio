@@ -77,7 +77,7 @@ export const Socials = [
   {
     name: "Instagram",
     src: "/instagram.svg",
-    link: "https://www.instagram.com"
+    link: "https://www.instagram.com/pmodaa_"
   },
 ];
 export const Projects = [
